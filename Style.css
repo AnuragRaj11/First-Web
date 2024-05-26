@@ -1,0 +1,184 @@
+body {
+    background-color: rgb(64, 70, 72);
+    color: #76b813;
+}
+
+td {
+    border: 2px solid black;
+}
+
+ol {
+    color: rgb(35, 161, 229);
+}
+
+button {
+    color: rgb(249, 17, 137);
+}
+
+span {
+    background-color: rgb(4, 243, 51);
+}
+
+div a {
+    color: rgb(255, 0, 0);
+}
+
+
+.box {
+    height: 43px;
+    width: 80vw;
+    padding: 7px;
+    margin: 3px;
+    border: 2px solid rgb(218, 11, 11);
+}
+
+.part {
+    padding: 49px;
+    margin: 6px;
+    border: 5px solid blanchedalmond;
+    position: relative;
+    bottom: 8px;
+}
+
+.box1 {
+    background-color: aqua;
+    position: relative;
+    left: 77%;
+    top: 9px;
+}
+
+.box2 {
+    background-color: rgb(20, 247, 81);
+    /* position: absolute; */
+
+}
+
+.pos {
+    color: solid red;
+    margin: 4px;
+    padding: 4px;
+    border: 4px solid goldenrod;
+    position: fixed;
+    /*sticky*/
+    left: 82vw;
+    top: 77px;
+    background: lightyellow;
+
+}
+
+/* @media screen  {
+    .pos{border: 3px greenyellow;}
+    .box2{flex-direction: column;}
+} */
+
+
+.item {
+    color: azure;
+    height: 14px;
+    width: 18px;
+    border: 3px solid salmon;
+    background: #000;
+    /* margin: 4px; */
+}
+
+.order1 {
+    order: 1;
+}
+
+.i1 {
+    flex-grow: 2;
+}
+
+.cont {
+    border: 3px solid red;
+    height: 15vh;
+    width: 18vw;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 12px;
+
+}
+
+.ct {
+    border: 7px solid blue;
+    padding: 28px;
+    margin: 4px;
+    width: 20vw;
+    height: 10vh;
+}
+
+.trns {
+    border: 3px solid purple;
+    margin: 11px;
+    padding: 18px;
+    background-color: lightcyan;
+    display: flex;
+    transform: rotate(20deg);
+    transform: skew(10vh);
+    width: 7vw;
+}
+
+.b {
+    transform: translatex(2);
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.36, -0.36, 0.86, 1.63);
+    transition-delay: 1ms;
+    background-color: aquamarine;
+}
+
+.trsi {
+    background-color: rgba(140, 197, 27, 0.523);
+    transform: translateX(4vw) translateY(2vh) scale(2);
+}
+
+.co {
+    background-color: rgb(9, 106, 106);
+    height: 10vh;
+    width: 90vw;
+}
+
+.ani {
+    width: 44px;
+    height: 25px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(23, 248, 7);
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(1, -0.34, 0, 1.09);
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes anime {
+    from {
+        background-color: hsl(62, 94%, 49%);
+    }
+
+    to {
+        background-color: #ff0000;
+    }
+
+}
+
+.obj {
+    border: 4px solid purple;
+    height: 7%;
+    width: 400px;
+    /* background-color: azure; */
+    background-position: center;
+    background-clip: border-box;
+}
+
+.img {
+    height: 11%;
+    width: 69%;
+    /* object-fit: cover; */
+    object-fit: contain;
+    object-position: 20px 10px;
+    filter: invert(1);
+    filter: blur(4px);
+}
