@@ -63,4 +63,4 @@ console.log(arr[0]);
 arr.push(7);
 console.log(arr.join("and"));
 
-// document.body.firstChild
+// document.body.firstChilds
