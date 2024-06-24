@@ -1,5 +1,16 @@
 {
   "dependencies": {
-    "ejs": "^3.1.10"
-  }
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "name": "anurag",
+  "version": "1.0.0",
+  "description": "Web dev Learn\r [Visit my site](https://anuragraj11.github.io/First-Web/)",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
