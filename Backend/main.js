@@ -36,7 +36,7 @@ app.get('/', (req, res) => {
 // })
 
 app.get('/about', (req, res) => {
-    res.send('hello mid!'+req.A)                    //m
+    res.send('hello mid!'+req.A)                    //mdb
 })
 
 app.listen(port, () => {
